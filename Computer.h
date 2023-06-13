@@ -3,10 +3,11 @@
 
 #include <iostream>
 #include "Player.h"
+#include<string>
 
 using namespace std;
 
-class Computer {
+class Computer : public Player {
 public:
     Computer();
     char makeMove();
