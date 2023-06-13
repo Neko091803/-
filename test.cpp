@@ -10,7 +10,7 @@ int main(){
     Referee *r = new Referee();
     Player* winner;
     winner = r->refGame(h, c);
-    cout<<winner->getName()<<endl;
+    cout<<winner->getName()<< " Win!"<< endl;
     
     
     return 0;
