@@ -1,14 +1,10 @@
-#ifndef BUBBLESORT_H
-#define BUBBLESORT_H
-
+#ifndef QUICK_SORT_H
+#define QUICK_SORT_h
 #include "Sort.h"
 #include <iostream>
 #include <vector>
-using namespace std;
 
-class BubbleSort: public Sort {
+class Quick_Sort : public Sort {
     public:
     std::vector<int> sort(std::vector<int> list);
-};
-
-#endif
+}
